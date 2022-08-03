@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <div class="temp-container">
+        <div class="display-temp">
+            <label for="">Celcius :</label>
+            <input type="number" placeholder="Celcius" name="number" id="celcius" class="celresult"  onchange="celciusTofahrenheit(this.value)"> 
+
+            <label for="">Fahrenheit :</label>
+            <input type="number" name="number" placeholder="Fahrenheit" id="fahrenheit" class="fahresult" onchange="fahrenheitTocelsius(this.value)" >
+        </div>
+    </div>
+
+    <script src="temp.js"></script>
+</body>
+</html>
